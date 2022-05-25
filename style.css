@@ -62,6 +62,15 @@ footer p{
     margin: 24px auto;
     width: 750px;
 }
+#conteiner-num{
+    display: flex;
+    gap: 5px;
+}
+#conteiner-num span{
+    color: #FF0000;
+    font-weight: bold;
+
+}
 #text-peq{
     font-size: 11px;
     font-family: Roboto;

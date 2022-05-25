@@ -17,7 +17,9 @@
             <h4>3 PILARES <span>SECRETOS PARA APOSENTAR DE VEZ</span> OS REMÉDIOS DA</h4>
             <h1><b>FIBROMIALGIA</b></h1>
             <b id="home">EM SUA CASA</b>
-            <p>pessoas estão assistindo agora, então o vídeo pode demorar até 10 segundos pra carregar</p>
+            <div id="conteiner-num">
+                <span id="randonNum"></span> <p>  pessoas estão assistindo agora, então o vídeo pode demorar até 10 segundos pra carregar</p>
+            </div>
             <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
             <h2>🔊 POR FAVOR, VERIFIQUE SE O SEU AUDIO ESTÁ LIGADO!</h2>
         </div>
@@ -46,4 +48,10 @@
         </footer>
     </main>
 </body>
+<script>
+    const num = Math.floor(Math.random() * (650 - 253) + 253)
+    console.log(num);
+    let spam = document.getElementById('randonNum');
+    spam.textContent = num;
+</script>
 </html>
